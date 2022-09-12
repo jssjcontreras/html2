@@ -1,16 +1,83 @@
 <!DOCTYPE html>
-<html lang="en-US" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Basic HTML site</title>
-  </head>
-  <body style="background-color:goldenrod">
-    <h1>First Assignment Webpage</h1>
-    <h2>Going to show the <i>skills</i> needed to ace this!</h2>
-    <h3>Hopefully I will be successful</h3>
-    <p style="font-family:verdana;color:Purple">This is a <b>basic webpage</b> that demonstrates the skills requested in the <em>rubric</em>.</p>
-    <img title="Coffee" src="images/image_1.jpg" alt="image of a coffee cup from above filled with coffee" width="200" height="200">
-    <img title="Donuts" src="images/image_2.jpg" alt="image of two pink frosted donuts with white sprinkles, one donut stacked above and falling off to the side" width="200" height="200">
-    <img title="Peppers" src="images/image_3.jpg" alt="image of three red peppers" width="200" height="200">
-  </body>
+<html>
+<head>
+<title>THE HTML 2 1/2</title>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@700&display=swap" rel="stylesheet">
+<style>
+body {
+    background-color: #D4D4D4;
+}
+h1, h4, table {
+    font-family: 'Oswald', sans-serif;
+}
+h2, h3, a, p, ul, li {
+    font-family: 'Roboto', sans-serif;
+}
+div {
+    background-color: whitesmoke
+}
+li {
+    margin-bottom: 9px
+}
+h4 {
+    color: coral
+}
+.image-control {
+    max-width: 200px;
+}
+#Title {
+    font-size: 60px;
+    text-align: center
+}
+</style>
+</head>
+<body>
+<header style="background-color:#F5F5F5">
+  <h1 id="Title"><b>PC's Made Easy</b></h1>
+  <h2 align="center">While it won't go over in <i>too</i> much detail, I hope that it's <em>accessible</em> enough for any and everyone to enjoy.</h2>
+</header>
+<h2>Quick answers to the " 5 What(s)?"</h2>
+<ol>
+  <li><a href="#W1">What do you need it for?</a></li>
+  <li><a href="#W2">What's your budget?</a></li>
+  <li><a href="W3">What tools do need?</a></li>
+  <li><a href="#W4">Extra: What places can you get parts from?</a></li>
+  <li><a href="#W5">Extra: What's the best way to build it?</a></li>
+</ol>
+<h3 id="W1">1. What do you need it for?</h3>
+<p>Without knowing why you need a Personal Computer (PC), it's hard to even begin looking for parts. Will it be for gaming, video editing, flying simulation, general home use, or some other use? These are just a few questions and ways PC's can be used.</p>
+<h3 id="W2">2. What's your budget?</h3>
+<p>Money also plays a key role into PC building, but for the most part, yes, the more money that goes towards it, the <i>"better"</i> it can be. <b>HOWEVER</b>, knowing what you need it for will definitely help in getting the best parts for the best price. For example, a desktop for general use can be built around a $500 dollar price range, while a competetive gaming machine will float above $1000 dollars.</p>
+<h3 id="W3">What parts do need?</h3>
+<p>The core components are listed below. For more in depth information on each part, and the extra components needed, <a href="Basic2DW_2.html">click here.</a></p>
+<table>
+  <tr>
+    <td><img class="image-control" title="Motherboard" src="images/MOBO.jpg" alt="Generic motherboard PC component" width="200" height="200">
+      <h4>Motherboard</h4></td>
+    <td><img  title="CPU" class="image-control" src="images/CPU.jpg" alt="Generic Processor PC component">
+      <h4>Processor</h4></td>
+  </tr>
+  <tr>
+    <td><img class="image-control" title="Storage" src="images/STOR.jpg" alt="Generic image of storage drives">
+      <h4>Storage</h4></td>
+    <td><img class="image-control" title="RAM" src="images/MEM.jpg" alt="Generic Memory PC component">
+      <h4>Memory</h4></td>
+  </tr>
+</table>
+<h3 id="W4">Extra: What places can you get parts from?</h3>
+<p>My personal go-to is Newegg. Great pricing and even plenty of helpful resources. Locally, there's the famous Microcenter.</p>
+<h3 id="W5">Extra: What's the best way to build it?</h3>
+<p>While there are many methods, I will default to a YouTube video that shows how to build a PC in less than <b><em>5 minutes??</em></b> Woah.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VhdV2wv3jQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>References:
+<ul>
+  <li><a href="https://www.crucial.com/articles/pc-builders/how-to-build-a-computer" target="_blank">Crucial - How to build your own PC</a></li>
+  <li><a href="https://www.newegg.com/r" target="_blank">Newegg</a></li>
+  <li><a href="https://www.microcenter.com/site/products/computer-parts.aspx" target="_blank">Microcenter - Computer Parts</a></li>
+</ul>
+</p>
+</body>
 </html>
